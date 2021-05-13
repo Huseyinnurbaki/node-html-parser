@@ -22,6 +22,6 @@ export default class CommentNode extends Node {
 	}
 
 	public toString() {
-		return `<!--${this.rawText}-->`;
+		return this.rawText;
 	}
 }
